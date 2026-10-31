@@ -1,0 +1,11 @@
+# Ignore generated package contents by default.
+# Keep the compiled WASM package in Git so the browser demo works immediately.
+*
+!filekit.d.ts
+!filekit.js
+!filekit_bg.wasm
+!filekit_bg.wasm.d.ts
+!LICENSE-APACHE
+!LICENSE-MIT
+!package.json
+!README.md

@@ -1,0 +1,17 @@
+{
+  "name": "filekit",
+  "type": "module",
+  "description": "A reusable binary file processing library",
+  "version": "0.1.0",
+  "license": "MIT OR Apache-2.0",
+  "files": [
+    "filekit_bg.wasm",
+    "filekit.js",
+    "filekit.d.ts"
+  ],
+  "main": "filekit.js",
+  "types": "filekit.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
