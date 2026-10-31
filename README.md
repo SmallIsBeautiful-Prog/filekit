@@ -6,6 +6,15 @@ FileKit is a Rust library that provides authenticated file encryption, streaming
 
 The library is designed to be reusable: other Rust applications can call its functions directly, while JavaScript applications can use the WebAssembly interface.
 
+## Security Review
+
+FileKit includes a consolidated source-level security review documenting its cryptographic design, implementation considerations, testing evidence, and known limitations.
+
+- **[Read the Security Review](docs/SECURITY-REVIEW.md)** — the full technical reference.
+- **[Read the PDF version](docs/SECURITY-REVIEW.pdf)** — a convenient version for reading and sharing.
+
+The review reflects recorded findings for FileKit v0.1.0. It is not an independent professional cryptographic audit or a formal security certification. Security properties and limitations are described in the report.
+
 ## Contents
 
 - [Features](#features)
