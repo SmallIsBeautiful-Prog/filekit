@@ -99,14 +99,12 @@ For WebAssembly development, you will also need a WebAssembly-compatible Rust ta
 
 ### 1. Get the project
 
-Clone the repository after FileKit has been published to GitHub:
+Clone the FileKit repository from GitHub:
 
 ```bash
-git clone <FILEKIT-REPOSITORY-URL>
+git clone https://github.com/SmallIsBeautiful-Prog/filekit.git
 cd filekit
 ```
-
-Replace `<FILEKIT-REPOSITORY-URL>` with the actual repository address.
 
 Alternatively, download the repository and open a terminal in the project directory.
 
