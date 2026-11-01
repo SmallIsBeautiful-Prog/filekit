@@ -1,6 +1,6 @@
 # FileKit v0.1.0 — Security Review & Technical Reference
 
-**Document status:** Consolidated reference draft  
+**Document status:** Published technical reference  
 **Project:** FileKit  
 **Release assessed:** `v0.1.0`  
 **Repository:** https://github.com/SmallIsBeautiful-Prog/filekit  
@@ -155,8 +155,8 @@ This document is a consolidated technical reference based on the recorded review
 ## 10. Document maintenance
 
 - **Release assessed:** FileKit `v0.1.0`
-- **Document status:** Draft for maintainer review
-- **Recommended repository path:** `docs/SECURITY-REVIEW.md`
-- **Recommended PDF filename:** `docs/SECURITY-REVIEW.pdf`
+- **Document status:** Published technical reference
+- **Published Markdown path:** `docs/SECURITY-REVIEW.md`
+- **Published PDF path:** `docs/SECURITY-REVIEW.pdf`
 
 When FileKit changes materially, review this document and clearly identify any new review scope, test results, or changes to security-relevant behavior. Do not update the assessed release or date in a way that suggests a later version was reviewed unless that review actually occurred.
