@@ -3,8 +3,11 @@
 name = "filekit"
 version = "0.1.0"
 edition = "2021"
-description = "A reusable binary file processing library"
+description = "A reusable Rust library for authenticated file encryption and decryption"
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/SmallIsBeautiful-Prog/filekit"
+readme = "README.md"
+keywords = ["encryption", "cryptography", "file-protection"]
 
 [lib]
 crate-type = ["rlib", "cdylib"]
