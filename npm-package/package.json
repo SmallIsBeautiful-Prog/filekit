@@ -1,0 +1,63 @@
+{
+  "name": "@smallisbeautiful/filekit",
+  "version": "0.1.0",
+  "description": "A Rust and WebAssembly file protection library for browser applications.",
+  "license": "MIT OR Apache-2.0",
+  "author": "Small Is Beautiful",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SmallIsBeautiful-Prog/filekit.git"
+  },
+  "homepage": "https://github.com/SmallIsBeautiful-Prog/filekit",
+  "bugs": {
+    "url": "https://github.com/SmallIsBeautiful-Prog/filekit/issues"
+  },
+  "type": "module",
+  "main": "./filekit.js",
+  "types": "./filekit.d.ts",
+  "exports": {
+    ".": {
+        "types": "./filekit.d.ts",
+        "import": "./filekit.js"
+    },
+    "./wasm": {
+        "types": "./filekit.d.ts",
+        "import": "./filekit.js"
+    },
+    "./encode": {
+        "types": "./encode.d.ts",
+        "import": "./encode.js"
+    },
+    "./decode": {
+        "types": "./decode.d.ts",
+        "import": "./decode.js"
+    }
+  },
+  "files": [
+    "filekit.js",
+    "filekit.d.ts",
+    "encode.js",
+    "decode.js",
+    "wasm-init.js",
+    "encode.d.ts",
+    "decode.d.ts",
+    "filekit_bg.wasm",
+    "filekit_bg.wasm.d.ts",
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "README.md",
+    "docs/",
+    "demo/"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "file-encryption",
+    "file-protection",
+    "rust",
+    "wasm",
+    "webassembly",
+    "aes-256-gcm",
+    "browser",
+    "cryptography"
+  ]
+}
